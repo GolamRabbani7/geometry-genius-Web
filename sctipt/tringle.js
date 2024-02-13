@@ -16,7 +16,7 @@ function tringleCalculate() {
     const area = 0.5 * base * height;
 
     // area transform disply
-    const tringleAreaResult = document.getElementById('Area');
+    const tringleAreaResult = document.getElementById('triangle-disply');
     tringleAreaResult.innerText = area;
 
 

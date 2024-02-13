@@ -22,38 +22,45 @@
 
                 <!-- Tringle card  -->
                 <div class="card  bg-base-100 shadow-xl">
-                    <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+                    <figure><img src="images/triangle.png" alt="Tringle" /></figure>
                     <div class="card-body">
                         <h2 class=" text-2xl text-center"> Tringle</h2>
                         <p class="text-center">Area (A) = 0.5 X b X h</p>
                         <div class="flex gap-x-4 ">
-                            <input id="base" class="w-20 p-2" type="text" placeholder="b"><span class="mt-2">cm</span> 
-                             <input id="height" class="w-20 p-2"  type="text" placeholder="h"><span class="mt-2">cm</span>
+                            <input id="base" class="w-20 p-2" type="text" placeholder="b"><span class="mt-2">cm</span>
+                            <input id="height" class="w-20 p-2" type="text" placeholder="h"><span class="mt-2">cm</span>
                         </div>
                         <div>
-                            <h5>Area=<span id="Area">0</span> <span>cm</span> <sup>2</sup></h5>
+                            <h5>Area=<span id="triangle-disply">0</span> <span>cm</span> <sup>2</sup></h5>
                         </div>
                         <div class="card-actions justify-end">
                             <button onclick="tringleCalculate()" class="btn w-full btn-primary">Buy Now</button>
                         </div>
                     </div>
                 </div>
-                <!-- Tringle -->
+                <!-- Rectangle -->
                 <div class="card  bg-base-100 shadow-xl">
-                    <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+                    <figure><img src="images/rectangle.png" alt="Rectangle" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 class=" text-2xl text-center">Rectangle</h2>
+                        <p class="text-center">Area (A) = W X I</p>
+                        <div class="flex gap-x-4 ">
+                            <input id="width" class="w-20 p-2" type="text" placeholder="w"><span class="mt-2">cm</span>
+                            <input id="length" class="w-20 p-2" type="text" placeholder="i"><span class="mt-2">cm</span>
+                        </div>
+                        <div>
+                            <h5>Area=<span id="rectangle-disply">0</span> <span>cm</span> <sup>2</sup></h5>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn w-full btn-primary">Buy Now</button>
+                            <button onclick=" reactangleCalculate()" class="btn w-full btn-primary">Buy Now</button>
                         </div>
                     </div>
                 </div>
-                <!-- Tringle -->
+                <!-- Parallelogram -->
                 <div class="card  bg-base-100 shadow-xl">
-                    <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+                    <figure><img src="images/parallelogram.png" alt="Parallelogram" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
+                        <h2 class=" text-2xl text-center">Parallelogram</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions justify-end">
                             <button class="btn btn-primary">Buy Now</button>
@@ -103,6 +110,8 @@
         </div>
     </main>
     <script src="sctipt/tringle.js"></script>
+    <script src="sctipt/rectangle.js"></script>
+    <script src="sctipt/parallelogram.js"></script>
 </body>
 
 </html>
